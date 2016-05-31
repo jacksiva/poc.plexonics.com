@@ -1,0 +1,11 @@
+<?php
+
+function plexonics_form_alter(&$form, &$form_state, $form_id) {    
+  if ($form_id == 'product_node_form') {
+    $form['actions']['submit']['#submit'][] = 'mysubmit_node_submit';
+  }     
+}
+
+function mysubmit_node_submit($form, &$form_state) {
+  $form_state['redirect'] = '/homepage';
+}

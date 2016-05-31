@@ -1,0 +1,9 @@
+name = Plexonics
+description = Defines plexonics alter drupal all.
+
+core = 7.x
+; Information added by Drupal.org packaging script on 2016-04-21
+version = "7.x-1.7"
+core = "7.x"
+project = "plexonics"
+datestamp = "1461253746"
